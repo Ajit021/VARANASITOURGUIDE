@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "810295618044",
+    "firebase_url": "https://varanasitourguide.firebaseio.com",
+    "project_id": "varanasitourguide",
+    "storage_bucket": "varanasitourguide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810295618044:android:de416ed05af6a718",
+        "android_client_info": {
+          "package_name": "com.example.android.varanasitourguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810295618044-iq4fn0sebdb5eci8ei44utliastmjspr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.varanasitourguide",
+            "certificate_hash": "29c44b2cbca4f444a4591112c4f5c4aab275cfed"
+          }
+        },
+        {
+          "client_id": "810295618044-d0f129mo2543e0u34c3aa1j415c9dbl0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDUCbTjBkhJb31wC5vhNog3wGiX_dnIY0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810295618044-d0f129mo2543e0u34c3aa1j415c9dbl0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

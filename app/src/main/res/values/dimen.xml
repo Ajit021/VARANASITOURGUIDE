@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="fortextsize">24sp</dimen>
+    <dimen name="forlayoutheight">88dp</dimen>
+    <dimen name="fortextlayout">44dp</dimen>
+
+    <dimen name="forimage">24dp</dimen>
+    <dimen name="forimagelayout">16dp</dimen>
+</resources>

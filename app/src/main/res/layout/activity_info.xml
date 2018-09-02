@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.varanasitourguide.info">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageinfo"
+        android:background="@drawable/bluebackground"
+        tools:src="@drawable/ic_annapurna" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/imageinfo"
+        android:id="@+id/textinfo"
+        android:background="@drawable/bluebackground">
+
+        <TextView
+
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/white"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            tools:text="@string/Annapurna" />
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/locationinfo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_below="@id/textinfo"
+        android:background="@drawable/bluebackground"
+
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/ic_location"
+            android:scaleType="centerCrop"
+            android:onClick="placemap"
+            />
+
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="150dp"
+            android:background="@drawable/ic_olacabs"
+            android:onClick="bookcab"
+            />
+
+        </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/locationinfo">
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="DESCRIPTION OF THE PLACE:"/>
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:padding="12dp"
+            android:layout_below="@id/text1"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            tools:text="@string/ramnagar1"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+
+</ScrollView>
